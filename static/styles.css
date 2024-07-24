@@ -1,0 +1,161 @@
+@font-face{
+    font-family: 'kanit';
+    src: url(/font/Kanit-Light.ttf);
+    font-weight: light;
+    font-style: light;
+}
+
+@font-face{
+    font-family: 'kanit';
+    src: url(/font/Kanit-Medium.ttf);
+    font-weight: medium,;
+    font-style: medium;
+}
+
+@font-face{
+    font-family: 'kanit';
+    src: url(/font/Kanit-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'kanit';
+    src: url(/font/Kanit-SemiBold.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face{
+    font-family: 'lato';
+    src: url(/font/Lato-Thin.ttf);
+    font-weight: thin;
+    font-style: thin;
+}
+
+@font-face{
+    font-family: 'lato';
+    src: url(/font/Lato-Light.ttf);
+    font-weight: light;
+    font-style: light;
+}
+
+@font-face{
+    font-family: 'lato';
+    src: url(/font/Lato-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+body{
+    background-image: url(background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper{
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 64px;
+}
+
+.h1 p, h1{
+    color: white;
+    font-family: kanit;
+    font-weight: normal;
+}
+
+.h1 h1{
+    font-size: 60px;
+    margin: 0;
+}
+
+.h1 p{
+    font-size: 20px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.459);
+}
+
+.inputscont input{
+    width: 680px;
+    height: 40px;
+    border-radius: 8px;
+    font-family: lato;
+    font-size: 16px;
+    padding: 10px 14px;
+    outline: 2px solid #ffffff00;
+    border: #ffffff00;
+    background-color: rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(16px);
+    color: #fff;
+    transition: 0.2s;
+}
+
+.inputscont{
+    margin-bottom: 50px;
+}
+
+
+.inputscont p {
+    font-family: lato;
+    font-weight: bold;
+    color: #ffffffd0;
+
+}
+
+.inputscont input:hover{
+    outline: 5px solid #ffffff91;
+    transition: 0.2s;
+
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.button{
+    margin-top: 120px;
+    padding: 8px 26px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 137px;
+    height: 44px;
+    border-radius: 6px;
+    font-family: kanit;
+
+
+}
+
+.button a{
+    text-decoration: none;
+    color: rgba(88, 88, 88, 1);
+    font-size: 20px;
+}
+

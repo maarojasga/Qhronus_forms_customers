@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina1</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="h1">
+            <p>Queremos conocerte</p>
+            <h1>Háblanos de ti</h1>
+        </div>
+        <div class="inputs">
+            <form id="userForm" action="/submit" method="post">
+                <div class="inputscont">
+                    <p>Nombre</p>
+                    <input type="text" name="nombre" required>
+                </div>
+                <div class="inputscont">
+                    <p>Empresa</p>
+                    <input type="text" name="empresa" required>
+                </div>
+                <div class="inputscont">
+                    <p>Correo</p>
+                    <input type="email" name="correo" required>
+                </div>
+                <div class="inputscont">
+                    <p>Celular</p>
+                    <input type="number" name="celular" required inputmode="numeric" pattern="[0-9]+">
+                </div>
+                <div class="button">
+                    <button type="submit">Siguiente</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
