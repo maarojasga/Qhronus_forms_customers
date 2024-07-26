@@ -1,48 +1,48 @@
 @font-face{
     font-family: 'kanit';
-    src: url(/font/Kanit-Light.ttf);
+    src: url(/static/font/Kanit-Light.ttf);
     font-weight: light;
     font-style: light;
 }
 
 @font-face{
     font-family: 'kanit';
-    src: url(/font/Kanit-Medium.ttf);
+    src: url(/static/font/Kanit-Medium.ttf);
     font-weight: medium,;
     font-style: medium;
 }
 
 @font-face{
     font-family: 'kanit';
-    src: url(/font/Kanit-Regular.ttf);
+    src: url(/static/font/Kanit-Regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face{
     font-family: 'kanit';
-    src: url(/font/Kanit-SemiBold.ttf);
+    src: url(/static/font/Kanit-SemiBold.ttf);
     font-weight: bold;
     font-style: bold;
 }
 
 @font-face{
     font-family: 'lato';
-    src: url(/font/Lato-Thin.ttf);
+    src: url(/static/font/Lato-Thin.ttf);
     font-weight: thin;
     font-style: thin;
 }
 
 @font-face{
     font-family: 'lato';
-    src: url(/font/Lato-Light.ttf);
+    src: url(/static/font/Lato-Light.ttf);
     font-weight: light;
     font-style: light;
 }
 
 @font-face{
     font-family: 'lato';
-    src: url(/font/Lato-Regular.ttf);
+    src: url(/static/font/Lato-Regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
